@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form class="container">
+      <h1>Meu Formulário</h1>
+
+      <fieldset>
+        <legend>Informações Pessoais </legend>
+        <input type="text" placeholder="Digite o texto desejado" required />
+
+        <input type="email" placeholder="Digite seu e-mail" required />
+
+        <input
+          type="number"
+          placeholder="Digite um número"
+          min="10"
+          max="15"
+          required
+        />
+      </fieldset>
+
+      <div>
+        <input
+          type="checkbox"
+          name="name"
+          value="5"
+          placeholder="checkbox"
+          required
+        />
+        <label for="name">checkbox_1</label>
+      </div>
+
+      <div>
+        <input
+          class="max"
+          type="radio"
+          name="name"
+          id="1"
+          value="1"
+          placeholder="checkbox"
+        />
+        <label for="1">radio 1</label>
+        <input
+          class="medium"
+          type="radio"
+          name="name"
+          id="2"
+          value="2"
+          placeholder="checkbox"
+          required
+        />
+        <label for="2">radio 2</label>
+        <input
+          class="min"
+          type="radio"
+          name="name"
+          id="3"
+          value="3"
+          placeholder="checkbox"
+        />
+        <label for="3">radio 3</label>
+      </div>
+
+      <input type="color" name="" id="" />
+
+      <input type="date" name="" id="" />
+      <input type="time" name="" id="" />
+
+      <input
+        type="datetime-local"
+        min="2024-08-22T08:00"
+        max="2024-08-24T18:00"
+      />
+
+      <input type="file" accept=".pdf, .mp4" name="" id="" />
+
+      <input type="tel" pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" />
+
+      <input type="url" />
+
+      <textarea
+        name=""
+        id=""
+        rows="4"
+        cols="50"
+        maxlength="5"
+        placeholder="date"
+      ></textarea>
+
+      <select>
+        <option disabled selected value="1">placeholder</option>
+        <option value="1">Opção 1</option>
+        <option value="2">Opção 2</option>
+        <option value="3">Opção 3</option>
+      </select>
+
+      <button type="submit">Salvar</button>
+    </form>
+  </body>
+</html>

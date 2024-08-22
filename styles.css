@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+input[type="checkbox"] {
+  accent-color: rgb(235, 35, 182);
+}
+
+
+.max {
+  accent-color: red;
+}
+.medium {
+  accent-color: gray;
+}
+.min {
+  accent-color: green;
+}
+
+input[type="radio"] {
+  accent-color: rgb(235, 35, 182);
+}
+
+textarea {
+  resize: none;
+}
